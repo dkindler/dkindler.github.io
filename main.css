@@ -1,0 +1,33 @@
+.main {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1 {
+	font-family: 'VT323';
+	text-align:center;
+}
+#twitter:hover {
+    color: #55ACEE;
+}
+#linkedin:hover {
+    color: #0976b4;
+}
+
+#github:hover {
+    color: #333;
+}
+
+#mail:hover {
+    color: #222;
+}
+
+.icon {
+	color: #999;
+}
+
+ .backwards {
+	 unicode-bidi:bidi-override; direction: rtl;
+ } 
