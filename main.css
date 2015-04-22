@@ -24,6 +24,10 @@ h1 {
     color: #222;
 }
 
+#dialog:hover {
+    color: #8C4A4A;
+}
+
 .icon {
 	color: #999;
 }
