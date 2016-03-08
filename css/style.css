@@ -76,21 +76,6 @@ canvas {
 	display: none;
 }
 
-@media screen and (min-width: 481px) and (max-width: 1024px) {
-    .container {
-        margin-left: 30px;
-        margin-right: 30px;
-        padding: 0px;
-    }
-    #intro {
-        font-size: 4.5em;
-        font-weight: 700;
-        color: #FF6138;
-        padding-top: 30px;
-        padding-bottom: 10px;
-    }
-}
-
 @media screen and (max-width:480px) {
 	.container {
 		margin-left: 20px;
@@ -100,9 +85,9 @@ canvas {
 	#intro {
 		font-size: 3em;
 		font-weight: 700;
-		color: #FF6138;
+		color: #FFFF9D;
 		padding-top: 30px;
-		padding-bottom: 50px;
+		padding-bottom: 10px;
 	}
 }
 
