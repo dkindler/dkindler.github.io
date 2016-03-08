@@ -1,0 +1,83 @@
+
+html, body{
+	width:100%;
+	height:100%;
+	background:#F7F7F7 !important;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+		font-family: 'Open Sans', sans-serif;
+}
+
+canvas {
+	pointer-events: none;
+  display:block;
+  vertical-align:bottom;
+	position:absolute; /* change */
+	left: 0;
+	top: 0;
+}
+
+#intro {
+	font-size: 6em;
+	font-weight: 800;
+	color: #34495E;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	z-index: 1;
+}
+
+.intro-fallback{
+    font-size: 6em;
+    font-weight: 800;
+    color: #34495E;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#typed-intro{
+    padding-bottom: 50;
+    display:none;
+}
+
+#typed-intro, #about-me, #divider {
+	padding-left: 0px;
+}
+
+#about-me {
+	z-index: 20;
+	display:none;
+	padding-bottom: 10px;
+}
+
+.media p {
+	margin-bottom: 0;
+}
+
+.container {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 0px;
+}
+
+#highlight {
+	background-color: #FFFF9D;
+	color: black;
+}
+
+#footer {
+	display: none;
+}
+
+/* ---- particles.js container ---- */
+#particles-js{
+  background-color: inherit;
+	z-index: 50;
+}

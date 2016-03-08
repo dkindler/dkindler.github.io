@@ -1,35 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="fa-animation.css">
-	<link rel="stylesheet" href="main.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<title>dk</title>
+  <meta charset="utf-8">
+  <title>Dan Kindler</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,700' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
-	<div class="main">
-		<h1>dankindler</h1>
-		<center>
-			<a href="http://github.com/dkindler"><i class="fa fa-github-square fa-3x icon faa-float animated-hover" id="github"></i></a>
-			<a href="https://www.linkedin.com/profile/view?id=291781475"><i class="fa fa-linkedin-square fa-3x icon faa-float animated-hover" id="linkedin"></i></a>
-			<a href="https://talkdialog.com"><i class="fa fa-align-left fa-3x icon faa-float animated-hover" id="dialog"></i></a>
-			<a href="Kindler,Daniel.pdf">
-				<i class="fa fa-file-text-o fa-3x icon faa-float animated-hover" id="resume"></i>
-			</a>
-		</center>
-	</div>
 
-	<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<div class="container">
+  <div class="row">
+    <div id="divider" class="col-md-10"></div>
+    <p id="intro" class="col-md-10"></p>
+    <div id="typed-intro" class="col-md-10">
+      <p class="intro-fallback">Hello.</p>
+      <p class="intro-fallback">I'm Dan.</p>
+    </div>
+  </div>
+</div>
 
-	ga('create', 'UA-61000100-1', 'auto');
-	ga('send', 'pageview');
-	</script>
+
+<div class="container" id="about-me">
+  <div class="col-md-6">
+      <ul class="media-list">
+          <li class="media">
+              <div class="media-left">
+                  <img style="width:50px" class="media-object" src="assets/dialog-logo.png">
+              </div>
+              <div class="media-body">
+                  <a href="https://talkdialog.com"><h4 class="media-heading"><span id="highlight">Founder @ Dialog</span></h4></a>
+                  <p>Dialog grants businesses the ability to send and recieve text-messages to and from their customers,
+                  as well as recieve payments over SMS</p>
+                  <p><span class="label label-default">4/15 - Current</span></p>
+              </div>
+          </li>
+          <li class="media">
+              <div class="media-left">
+                  <img style="width:50px" class="media-object" src="assets/dandt.png">
+              </div>
+              <div class="media-body">
+                  <a href="http://domandtom.com"><h4 class="media-heading"><span id="highlight">Jr. Software Dev @ Dom &amp; Tom</span></h4></a>
+                  <p>I was a member of the mobile development team at Dom &amp; Tom, a software development company, where
+                    I helped create iOS applications for clients like Seventeen Magazine. I worked closely with
+                    clients to ensure their needs and expectations were met, and interacted closely with the design and
+                    QA departments in a team like setting.</p>
+                  <p><span class="label label-default">5/14 - 8/14</span></p>
+              </div>
+          </li>
+          <li class="media">
+              <div class="media-left">
+                  <img style="width:50px" class="media-object" src="assets/qa.png">
+              </div>
+              <div class="media-body">
+                  <h4 class="media-heading">Software Engineering Intern @ Qallect</h4>
+                  <p>Assisted the project manager in the development of the Qallect iOS application. Qallect was
+                    an iPhone app that was designed to help friends make better collective decisions.</p>
+                  <p><span class="label label-default">4/13 - 2/14</span></p>
+              </div>
+          </li>
+          <li class="media">
+              <div class="media-left">
+                  <img style="width:50px" class="media-object" src="assets/pitt.png">
+              </div>
+              <div class="media-body">
+                  <h4 class="media-heading">Student @ University of Pittsburgh</h4>
+                  <p>Computer Science major with Business Concentration</p>
+                  <p>Economics Minor</p>
+                  <p><span class="label label-default">9/14 - Current</span></p>
+              </div>
+          </li>
+      </ul>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <p id="footer">
+        <a href="assets/Kindler,Daniel.pdf"><span id="highlight">RESUME</span></a>
+        |
+        <a href="https://github.com/dkindler"><span id="highlight">GITHUB</span></a>
+        |
+        <a href="https://www.linkedin.com/in/danielkindler?"><span id="highlight">LINKEDIN</span></a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="particles-js"></div>
+
+<!-- scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script src="js/typed.js"></script>
+
+<!-- typed.js -->
+<script>
+    $(function () {
+            $("#intro").typed({
+                stringsElement: $('#typed-intro'),
+                typeSpeed: 100,
+                showCursor:false,
+                callback: function () {
+                  $("#about-me").fadeIn("slow", function() {});
+                  $("#divider").fadeIn("slow", function() {});
+                  $("#footer").fadeIn("slow", function() {});
+                }
+            });
+    });
+</script>
+
+<!-- GAnalytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61000100-1', 'auto');
+  ga('send', 'pageview');
+</script>
 
 </body>
 </html>
