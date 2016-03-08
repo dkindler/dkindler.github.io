@@ -91,6 +91,21 @@ canvas {
     }
 }
 
+@media screen and (max-width:480px) {
+	.container {
+		margin-left: 20px;
+		margin-right: 20px;
+		padding: 0px;
+	}
+	#intro {
+		font-size: 3em;
+		font-weight: 700;
+		color: #FF6138;
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+}
+
 
 /* ---- particles.js container ---- */
 #particles-js{
