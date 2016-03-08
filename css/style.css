@@ -76,6 +76,22 @@ canvas {
 	display: none;
 }
 
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .container {
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 0px;
+    }
+    #intro {
+        font-size: 4.5em;
+        font-weight: 700;
+        color: #FF6138;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+}
+
+
 /* ---- particles.js container ---- */
 #particles-js{
   background-color: inherit;
