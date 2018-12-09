@@ -1,0 +1,50 @@
+I hereby claim:
+
+  * I am an admin of http://dankindler.com
+  * I am dkind (https://keybase.io/dkind) on keybase.
+  * I have a public key ASCgboehuK2Jl-xl6xDxyGS-xMqj1la_IvqtOD0HXos1sAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a06e87a1b8ad8997ec65eb10f1c864bec4caa3d656bf22faad383d075e8b35b00a",
+      "host": "keybase.io",
+      "kid": "0120a06e87a1b8ad8997ec65eb10f1c864bec4caa3d656bf22faad383d075e8b35b00a",
+      "uid": "36a3746ba821a583a7396b3622c78019",
+      "username": "dkind"
+    },
+    "merkle_root": {
+      "ctime": 1544369583,
+      "hash": "5b335807340adbf73daab899ddfad1e08adb5ad95205ec71e6573c83a37e107eca784daab5c4ca1702f195c20625f841b0da65996fe748978ae54a1cb0c4282d",
+      "hash_meta": "51f16c14607e33d093edf57c12ab3b59268589c0768f96dde499be38cb2ec228",
+      "seqno": 4081029
+    },
+    "service": {
+      "entropy": "BKX2ZwbNMOVD/NlWM3fhPiaP",
+      "hostname": "dankindler.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.11.0"
+  },
+  "ctime": 1544369635,
+  "expire_in": 504576000,
+  "prev": "23ffddf1a0c89fea939e8606b32881f49218de47f84f7dc0a7c13e5ee73b497f",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgoG6HobitiZfsZesQ8chkvsTKo9ZWvyL6rTg9B16LNbAKp3BheWxvYWTESpcCCcQgI//d8aDIn+qTnoYGsyiB9JIY3kf4T33Ap8E+Xuc7SX/EICwiabgIdMcSzaJ/lCDJMJLwTe0vWfnvhl/qtGx/vNNNAgHCo3NpZ8RAhSOD3FxNrDgrDHHhhi/TssSsrUqDfw0GnE170YmOjuItz7pctylWIdYOo1BJDn0jeJWT3wC8lsUeI4FDRiQxAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMjgQgkDejMIYrxm8H1k81yeqAgNm3Gs0+KpmL9bJk6Yo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dkind
