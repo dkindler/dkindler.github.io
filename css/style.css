@@ -61,6 +61,14 @@ canvas {
 	margin-bottom: 0;
 }
 
+.media {
+	margin-bottom: 30px;
+}
+
+.media-left {
+  padding-right: 20px !important;
+}
+
 .container {
 	margin-left: 100px;
 	margin-right: 100px;
@@ -74,6 +82,12 @@ canvas {
 
 #footer {
 	display: none;
+}
+
+.location {
+	color: #838383;
+  font-weight: 800;
+  font-size: 0.9em;
 }
 
 @media screen and (max-width:480px) {
